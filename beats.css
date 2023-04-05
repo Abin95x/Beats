@@ -1,0 +1,585 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@700&family=Oswald:wght@300&family=PT+Sans+Narrow&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Familjen+Grotesk:wght@700&family=Oswald:wght@300&family=PT+Sans+Narrow&family=Quicksand:wght@500&display=swap');
+.header{
+    background: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 60px;
+    padding-top: 4px;
+    cursor: pointer;
+    align-self: center;
+}
+.imgsize{
+    height: 40px;
+}
+.discover{
+    margin-left: 300px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+.shop{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+.support{
+    margin-right: 300px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+.logo2{
+height: 15px;
+padding-right:80px;
+align-self: center;
+}
+.black{
+    width: 100%;
+    height: 35px;
+    background: black;  
+    color: white;    
+    text-align: center;
+    align-items: center;
+    font-family: 'Familjen Grotesk', sans-serif;
+    padding-top: 15px;
+}
+.text1{
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;   
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.bor{
+    margin: 0%;
+    position: relative;
+}
+.pic1{
+    width: 100%;
+    height: 750px;
+}
+.pictext{
+    color: black;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.shopbutton{
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.shopbutton:hover{
+ background: red;
+ transition: 0.30s;
+}
+.populer{
+    background: rgb(242, 242, 245);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 45px;
+    margin-top: none;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.text2{
+    color: inherit;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.gridbody{
+    background: rgb(242, 242, 245);
+    height: 620px;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    height: 500px;
+    justify-content:space-around;
+    padding-top: 20px;
+}
+.grid1{
+    height: 500px;
+    background: white;
+    color: black;
+    text-align:left;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.grid1:hover{
+    transform: scale(1.01);
+}
+.text3{
+padding-left: 50px;
+font-family: 'Familjen Grotesk', sans-serif;
+}
+.pic2{
+    padding-top: 10px;
+    padding-left: 55px;
+    padding-bottom: 10px;
+    width: 75%;
+    height: 300px;
+}
+.buttons{
+    padding-left: 140px;
+    padding-right: 140PX;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.b1{
+    background-color:blue;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+}
+.b2{
+    width: 22px;
+    height: 22px;
+    background-color:grey;
+    border-radius: 50px;
+    border: none;
+}
+.b3{
+    background-color:pink;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    border: none;
+}
+.b4{
+    background-color:black;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    border: none;
+}
+.grid2{
+    cursor: pointer;
+    background: white;
+    color: black;
+    text-align:left;
+    border-radius: 20px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.grid2:hover{
+    transform: scale(1.01);
+}
+.text4{
+padding-left: 50px;
+font-family: 'Familjen Grotesk', sans-serif;
+}
+.pic3{
+    padding-top: 10px;
+    padding-left: 55px;
+    padding-bottom: 10px;
+    width: 75%;
+    height: 300px;
+}
+.buttons2{
+    padding-left: 165px;
+    padding-right: 140PX;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.c1{
+    background-color:black;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+}
+.c2{
+    background-color:palevioletred;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    border: none;
+}
+.c3{
+    background-color:red;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    border: none;
+}
+.grid3{
+    background: white;
+    color: black;
+    text-align:left;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.grid3:hover{
+    opacity: 0.8;
+    transform: scale(1.01);
+}
+.text5{
+padding-left: 50px;
+font-family: 'Familjen Grotesk', sans-serif;
+}
+.pic4{
+    padding-top: 10px;
+    padding-left: 55px;
+    padding-bottom: 10px;
+    width: 75%;
+    height: 300px;
+}
+.buttons3{
+    padding-left: 140px;
+    padding-right: 140PX;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.d1{
+    background-color:black;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+}
+.d2{
+    background-color:yellow;
+    width: 22px;
+    height: 22px;;
+    border-radius: 50px;
+    border: none;
+}
+.d3{
+    background-color:cyan;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    border: none;
+}
+.d4{
+    background-color:rgb(233, 231, 231);
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+}
+.delivery{
+    background: white;
+    width: 100%;
+    height: 400px;
+    color: black;
+    text-align: center;
+    padding-top: 45px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.text6{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.delflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo3{
+    width: 18%;
+    height: 70px;
+    align-items:end;
+}
+.text7{
+    text-align:center;
+    padding-left: 90px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.logo4{
+    width: 18%;
+    height: 70px;
+    align-items: center;
+}
+.text8{
+    text-align: center;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.logo5{
+    width: 21%;
+    height: 70px;
+    align-items: center;
+}
+.text9{
+    text-align: center; 
+    padding-right: 90px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.fitpro{
+    position: relative;
+}
+.fitprotext{
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.pic5{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0));
+    z-index: 9;
+}
+.buttonlearn{
+    height: 50px;
+    width: 140px;
+    border-radius: 30px;
+    border: none;
+}
+.buttonlearn:hover{
+    background: red;
+    transition: 0.30s;
+    color: white;
+}
+.buttonvideo{
+    height: 50px;
+    width: 160px;
+    border-radius: 30px;
+    border: none;
+}
+.buttonvideo:hover{
+    background: red;
+    transition: 0.30s;
+    color: white;
+}
+.boxx{
+    background: rgb(242, 242, 245);
+}
+.box{
+    background: rgb(242, 242, 245);
+    width: 100%;
+    height: 650px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content:space-around;
+    align-items: center;
+}
+.box1{
+    background: white;
+    width: 70%;
+    height: 500px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding-left:  50px;
+    padding-right: 50px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.box1:hover{
+    transform: scale(1.01);
+}
+.box2{
+    background: rgb(255, 255, 255);
+    width: 70%;
+    height: 500px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.box2:hover{
+    transform: scale(1.01);
+}
+.box3{
+    background: rgb(255, 255, 255);
+    width: 70%;
+    height: 500px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.box3:hover{
+    transform: scale(1.01);
+}
+.new1{
+    width: 100%;
+    height: 300px;
+}
+.new2{
+    width: 100%;
+    height: 300px;
+}
+.new3{
+    width:100%;
+    height: 300px;
+}
+.clr1{
+    color: gray;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.clr2{
+    color: gray;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.clr3{
+    color: gray;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+.last{
+    background:     #161616;
+    height: 650px;
+    width: 100%;
+    position: relative;
+}
+.lastpic{
+    padding-top: 65px;    
+    padding-left: 55px;
+    width: 42%;
+    height: 530px; 
+}
+.lasttext{
+    bottom: 300px;
+    right: 250px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    color: white;
+}
+.button1{
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    color: black;
+    border:none;
+}
+.button1:hover{
+    background: red;
+    transition: 0.30s;
+    color: white;
+}
+.f1{
+    text-align:end;
+    color: white;   
+}
+.end{
+    background: white;
+    width: 81.50%;
+    height: 100px;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    color: grey;
+}
+.textgrid{
+    background: rgb(255, 255, 255);
+    height: 550px;
+    width: 80%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    padding-left: 200px;
+    font-family: 'Oswald', sans-serif;
+}
+.logobeat{
+    padding-left: 50px;
+    padding-top: 50px;
+    background: white;
+}
+.logoend{
+    height: 40px;
+    cursor: pointer;
+}
+.textz{
+    color: gray;
+}
+.product{
+    color: black;
+}
+.textz2{
+    color: gray;
+}
+.support1{
+    color: black;
+}
+.textz3{
+    color: gray;
+}
+.company{
+    color: black;
+}
+.legal{
+    color: black;
+}
+.textz4{
+    color: gray;
+}
+.twitter{
+    height: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+.fb{
+    height: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+.yt{
+    height: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+.insta{
+    height: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+.textz5{
+    color: gray;
+}
+.email{
+    height: 20px;
+}
+.email2{
+    color: gray;
+}
+body{
+    background: rgb(242, 242, 245);
+    margin: 0;
+}
